@@ -34,4 +34,4 @@
     Access-Control-Allow-Headers = "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,X-Application-Version,X-SNJS-Version"
     Access-Control-Expose-Headers = "Content-Length,Content-Range"
     Access-Control-Max-Age = "1728000"
-    X-Robots-Tag = "noindex, nofollow"
+    X-Robots-Tag = "noindex, nofollow, noimageindex, notranslate, nosnippet, noarchive, nositelinkssearchbox"
