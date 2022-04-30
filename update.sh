@@ -4,6 +4,7 @@ set -Eeuo pipefail
 cd "$( dirname "${BASH_SOURCE[0]}" )"/build
 
 # update
+rm -rf standardnotes-extensions
 git clone --recurse-submodules --depth=1 https://github.com/iganeshk/standardnotes-extensions.git standardnotes-extensions
 
 pushd standardnotes-extensions
