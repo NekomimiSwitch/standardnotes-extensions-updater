@@ -29,10 +29,6 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "object-src 'none'; script-src 'none'; base-url 'none'; frame-ancestors 'none'"
-
-[[headers]]
-  for = "/extensions/*"
-  [headers.values]
     Access-Control-Allow-Origin = "*"
     Access-Control-Allow-Methods = "GET, POST, OPTIONS"
     Access-Control-Allow-Headers = "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,X-Application-Version,X-SNJS-Version"
